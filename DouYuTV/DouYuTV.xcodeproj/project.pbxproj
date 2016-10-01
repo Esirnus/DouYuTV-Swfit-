@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		92DC93F31D9F5E6400FE1E80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC93F21D9F5E6400FE1E80 /* AppDelegate.swift */; };
-		92DC93F51D9F5E6400FE1E80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC93F41D9F5E6400FE1E80 /* ViewController.swift */; };
 		92DC93F81D9F5E6400FE1E80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DC93F61D9F5E6400FE1E80 /* Main.storyboard */; };
-		92DC93FA1D9F5E6400FE1E80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DC93F91D9F5E6400FE1E80 /* Assets.xcassets */; };
 		92DC93FD1D9F5E6400FE1E80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DC93FB1D9F5E6400FE1E80 /* LaunchScreen.storyboard */; };
 		92DC94081D9F5E6400FE1E80 /* DouYuTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC94071D9F5E6400FE1E80 /* DouYuTVTests.swift */; };
 		92DC94131D9F5E6400FE1E80 /* DouYuTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC94121D9F5E6400FE1E80 /* DouYuTVUITests.swift */; };
+		92DC94211D9F61F500FE1E80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DC94201D9F61F500FE1E80 /* Assets.xcassets */; };
+		92DC944A1D9F6D0700FE1E80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC942F1D9F6D0700FE1E80 /* AppDelegate.swift */; };
+		92DC944B1D9F6D0700FE1E80 /* DYFollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC94321D9F6D0700FE1E80 /* DYFollowViewController.swift */; };
+		92DC944C1D9F6D0700FE1E80 /* DYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC94371D9F6D0700FE1E80 /* DYHomeViewController.swift */; };
+		92DC944D1D9F6D0700FE1E80 /* DYLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC943C1D9F6D0700FE1E80 /* DYLiveViewController.swift */; };
+		92DC944E1D9F6D0700FE1E80 /* DYNaivigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC94411D9F6D0700FE1E80 /* DYNaivigationViewController.swift */; };
+		92DC944F1D9F6D0700FE1E80 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC94421D9F6D0700FE1E80 /* MainViewController.swift */; };
+		92DC94501D9F6D0700FE1E80 /* DYProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC94471D9F6D0700FE1E80 /* DYProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +40,7 @@
 
 /* Begin PBXFileReference section */
 		92DC93EF1D9F5E6400FE1E80 /* DouYuTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		92DC93F21D9F5E6400FE1E80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		92DC93F41D9F5E6400FE1E80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		92DC93F71D9F5E6400FE1E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		92DC93F91D9F5E6400FE1E80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92DC93FC1D9F5E6400FE1E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92DC93FE1D9F5E6400FE1E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92DC94031D9F5E6400FE1E80 /* DouYuTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +49,14 @@
 		92DC940E1D9F5E6400FE1E80 /* DouYuTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92DC94121D9F5E6400FE1E80 /* DouYuTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuTVUITests.swift; sourceTree = "<group>"; };
 		92DC94141D9F5E6400FE1E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92DC94201D9F61F500FE1E80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92DC942F1D9F6D0700FE1E80 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92DC94321D9F6D0700FE1E80 /* DYFollowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DYFollowViewController.swift; sourceTree = "<group>"; };
+		92DC94371D9F6D0700FE1E80 /* DYHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DYHomeViewController.swift; sourceTree = "<group>"; };
+		92DC943C1D9F6D0700FE1E80 /* DYLiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DYLiveViewController.swift; sourceTree = "<group>"; };
+		92DC94411D9F6D0700FE1E80 /* DYNaivigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DYNaivigationViewController.swift; sourceTree = "<group>"; };
+		92DC94421D9F6D0700FE1E80 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		92DC94471D9F6D0700FE1E80 /* DYProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DYProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,11 @@
 		92DC93F11D9F5E6400FE1E80 /* DouYuTV */ = {
 			isa = PBXGroup;
 			children = (
-				92DC93F21D9F5E6400FE1E80 /* AppDelegate.swift */,
-				92DC93F41D9F5E6400FE1E80 /* ViewController.swift */,
+				92DC942E1D9F6D0700FE1E80 /* Classes */,
 				92DC93F61D9F5E6400FE1E80 /* Main.storyboard */,
-				92DC93F91D9F5E6400FE1E80 /* Assets.xcassets */,
 				92DC93FB1D9F5E6400FE1E80 /* LaunchScreen.storyboard */,
 				92DC93FE1D9F5E6400FE1E80 /* Info.plist */,
+				92DC94201D9F61F500FE1E80 /* Assets.xcassets */,
 			);
 			path = DouYuTV;
 			sourceTree = "<group>";
@@ -123,6 +132,180 @@
 				92DC94141D9F5E6400FE1E80 /* Info.plist */,
 			);
 			path = DouYuTVUITests;
+			sourceTree = "<group>";
+		};
+		92DC942E1D9F6D0700FE1E80 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				92DC942F1D9F6D0700FE1E80 /* AppDelegate.swift */,
+				92DC94301D9F6D0700FE1E80 /* Follow */,
+				92DC94351D9F6D0700FE1E80 /* Home */,
+				92DC943A1D9F6D0700FE1E80 /* Live */,
+				92DC943F1D9F6D0700FE1E80 /* Main */,
+				92DC94451D9F6D0700FE1E80 /* Profile */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		92DC94301D9F6D0700FE1E80 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				92DC94311D9F6D0700FE1E80 /* Controller */,
+				92DC94331D9F6D0700FE1E80 /* Model */,
+				92DC94341D9F6D0700FE1E80 /* View */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		92DC94311D9F6D0700FE1E80 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92DC94321D9F6D0700FE1E80 /* DYFollowViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92DC94331D9F6D0700FE1E80 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92DC94341D9F6D0700FE1E80 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92DC94351D9F6D0700FE1E80 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				92DC94361D9F6D0700FE1E80 /* Controller */,
+				92DC94381D9F6D0700FE1E80 /* Model */,
+				92DC94391D9F6D0700FE1E80 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		92DC94361D9F6D0700FE1E80 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92DC94371D9F6D0700FE1E80 /* DYHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92DC94381D9F6D0700FE1E80 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92DC94391D9F6D0700FE1E80 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92DC943A1D9F6D0700FE1E80 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				92DC943B1D9F6D0700FE1E80 /* Controller */,
+				92DC943D1D9F6D0700FE1E80 /* Model */,
+				92DC943E1D9F6D0700FE1E80 /* View */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		92DC943B1D9F6D0700FE1E80 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92DC943C1D9F6D0700FE1E80 /* DYLiveViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92DC943D1D9F6D0700FE1E80 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92DC943E1D9F6D0700FE1E80 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92DC943F1D9F6D0700FE1E80 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				92DC94401D9F6D0700FE1E80 /* Controller */,
+				92DC94431D9F6D0700FE1E80 /* Model */,
+				92DC94441D9F6D0700FE1E80 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		92DC94401D9F6D0700FE1E80 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92DC94411D9F6D0700FE1E80 /* DYNaivigationViewController.swift */,
+				92DC94421D9F6D0700FE1E80 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92DC94431D9F6D0700FE1E80 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92DC94441D9F6D0700FE1E80 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92DC94451D9F6D0700FE1E80 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				92DC94461D9F6D0700FE1E80 /* Controller */,
+				92DC94481D9F6D0700FE1E80 /* Model */,
+				92DC94491D9F6D0700FE1E80 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		92DC94461D9F6D0700FE1E80 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92DC94471D9F6D0700FE1E80 /* DYProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92DC94481D9F6D0700FE1E80 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92DC94491D9F6D0700FE1E80 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +370,7 @@
 		92DC93E71D9F5E6400FE1E80 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DY;
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Esirnus;
@@ -230,7 +414,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92DC93FD1D9F5E6400FE1E80 /* LaunchScreen.storyboard in Resources */,
-				92DC93FA1D9F5E6400FE1E80 /* Assets.xcassets in Resources */,
+				92DC94211D9F61F500FE1E80 /* Assets.xcassets in Resources */,
 				92DC93F81D9F5E6400FE1E80 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +440,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92DC93F51D9F5E6400FE1E80 /* ViewController.swift in Sources */,
-				92DC93F31D9F5E6400FE1E80 /* AppDelegate.swift in Sources */,
+				92DC94501D9F6D0700FE1E80 /* DYProfileViewController.swift in Sources */,
+				92DC944A1D9F6D0700FE1E80 /* AppDelegate.swift in Sources */,
+				92DC944C1D9F6D0700FE1E80 /* DYHomeViewController.swift in Sources */,
+				92DC944E1D9F6D0700FE1E80 /* DYNaivigationViewController.swift in Sources */,
+				92DC944F1D9F6D0700FE1E80 /* MainViewController.swift in Sources */,
+				92DC944D1D9F6D0700FE1E80 /* DYLiveViewController.swift in Sources */,
+				92DC944B1D9F6D0700FE1E80 /* DYFollowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,7 +588,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = DouYuTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.egren.DouYuTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,7 +601,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = DouYuTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.egren.DouYuTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DYNaivigationViewController.swift
 //  DouYuTV
 //
 //  Created by esirnus on 16/10/1.
@@ -8,10 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DYNaivigationViewController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         
     }
 
@@ -20,6 +21,4 @@ class ViewController: UIViewController {
         
     }
 
-
 }
-
